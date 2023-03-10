@@ -1,4 +1,4 @@
-*                               @Brian-C-Arnold/DefaultGroup                 
-ProjectA                        @Brian-C-Arnold/GroupA                       
-ProjectA/FolderB                @Brian-C-Arnold/GroupB                       
-ProjectB                        @Brian-C-Arnold/DefaultGroup  @Brian-C-Arnold/GroupB
+#*                               @Brian-C-Arnold/DefaultGroup                 
+#ProjectA                        @Brian-C-Arnold/GroupA                       
+#ProjectA/FolderB                @Brian-C-Arnold/GroupB                       
+#ProjectB                        @Brian-C-Arnold/DefaultGroup  @Brian-C-Arnold/GroupB
