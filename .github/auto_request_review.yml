@@ -3,12 +3,12 @@ reviewers:
   # Reviewer groups each of which has a list of GitHub usernames
   groups:
     defaultgroup:
-      - briancarnold
+      - BrianCArnold
     groupa:
-      - spr-brian
+      - SPR-Brian
     groupb:
-      - spr-brian
-      - briancarnold
+      - SPR-Brian
+      - BrianCArnold
 
 files:
   # Keys are glob expressions.
