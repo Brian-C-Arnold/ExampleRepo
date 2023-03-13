@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Require User Approval
-        uses: BrianCArnold/RequireUserApproval@0.0.1
+        uses: BrianCArnold/RequireUserApproval@debug
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
