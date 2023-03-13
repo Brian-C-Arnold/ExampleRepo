@@ -1,15 +1,17 @@
-name: Auto Request Review
+name: Require Review
+
+permissions: write-all
 
 on:
   pull_request:
     types: [opened, ready_for_review, reopened]
 
 jobs:
-  add-reviewers:
-    name: Auto Request Review
+  require-review:
+    name: Require Review
     runs-on: ubuntu-latest
     steps:
       - name: Request review based on files changes
-        uses: necojackarc/auto-request-review@v0.10.0
+        uses: briancarnold/requireuserapproval@v0.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
