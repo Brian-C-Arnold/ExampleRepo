@@ -1,0 +1,5 @@
+groups:
+  owners:
+    members:
+      - BrianCArnold
+    required: 1
