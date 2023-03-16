@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request review based on files changes
-        uses: briancarnold/requireuserapproval@debug24
+        uses: briancarnold/requireuserapproval@debug25
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
