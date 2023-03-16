@@ -6,23 +6,22 @@ groups:
     required: 1
     paths:
       - '**'
-  spr:
+  Project-A:
     members:
       - SPR-Brian
     required: 1
     paths:
       - 'ProjectA/**'
-  other:
-    members:
-      - BrianCArnold
-    required: 1
-    paths:
-      - 'ProjectB/**'
-  even-more:
+  Project-B:
     members:
       - BrianCArnold
       - FakeUser
-      - SPR-Brian
     required: 2
+    paths:
+      - 'ProjectB/**'
+  Project-C:
+    members:
+      - FakeUser
+    required: 1
     paths:
       - 'ProjectC/**'
