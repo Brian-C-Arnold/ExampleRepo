@@ -11,13 +11,13 @@ groups:
       - SPR-Brian
     required: 1
     paths:
-      - '/ProjectA/**'
+      - 'ProjectA/**'
   other:
     members:
       - BrianCArnold
     required: 1
     paths:
-      - '/ProjectB/**'
+      - 'ProjectB/**'
   even-more:
     members:
       - BrianCArnold
@@ -25,4 +25,4 @@ groups:
       - SPR-Brian
     required: 2
     paths:
-      - '/ProjectC/**'
+      - 'ProjectC/**'
