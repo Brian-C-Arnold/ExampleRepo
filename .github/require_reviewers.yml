@@ -1,21 +1,19 @@
 groups:
   defaults:
     members:
-      - BrianCArnold
-      - SPR-Brian
+      - team:DefaultGroup
     required: 1
     paths:
       - '**'
   Project-A:
     members:
-      - SPR-Brian
+      - team:GroupA
     required: 1
     paths:
       - 'ProjectA/**'
   Project-B:
     members:
-      - BrianCArnold
-      - FakeUser
+      - team:GroupB
     required: 2
     paths:
       - 'ProjectB/**'
