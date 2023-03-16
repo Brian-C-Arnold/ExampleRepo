@@ -14,4 +14,4 @@ jobs:
       - name: Request review based on files changes
         uses: briancarnold/requireuserapproval@debug27
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
