@@ -1,5 +1,5 @@
 groups:
-  codeowners:
+  defaults:
     members:
       - BrianCArnold
       - SPR-Brian
