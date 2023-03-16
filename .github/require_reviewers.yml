@@ -5,21 +5,16 @@ groups:
     required: 1
     paths:
       - '**'
-  Project-A:
+  Fix:
     members:
-      - team:GroupA
-    required: 1
+      - team:Fix
+    required: 2
     paths:
-      - 'ProjectA/**'
-  Project-B:
+      - 'assemblies/SRFixMaster/**'
+      - 'assemblies/SRFixBase/**'
+  Risk:
     members:
       - team:GroupB
     required: 2
     paths:
-      - 'ProjectB/**'
-  Project-C:
-    members:
-      - FakeUser
-    required: 1
-    paths:
-      - 'ProjectC/**'
+      - 'assemblies/Risk/**'
