@@ -3,8 +3,8 @@ name: Require Review
 permissions: write-all
 
 on:
-  pull_request:
-    types: [opened, ready_for_review, reopened]
+  pull_request_review:
+    types: [editted, submitted]
 
 jobs:
   require-review:
@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request review based on files changes
-        uses: briancarnold/requireuserapproval@v0.0.1
+        uses: briancarnold/requireuserapproval@debug20
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

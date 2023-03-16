@@ -1,5 +1,28 @@
 groups:
-  owners:
+  codeowners:
+    members:
+      - BrianCArnold
+      - SPR-Brian
+    required: 1
+    paths:
+      - '**'
+  spr:
+    members:
+      - SPR-Brian
+    required: 1
+    paths:
+      - '/ProjectA/**'
+  other:
     members:
       - BrianCArnold
     required: 1
+    paths:
+      - '/ProjectB/**'
+  even-more:
+    members:
+      - BrianCArnold
+      - FakeUser
+      - SPR-Brian
+    required: 2
+    paths:
+      - '/ProjectC/**'
