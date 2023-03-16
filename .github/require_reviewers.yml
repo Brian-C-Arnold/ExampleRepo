@@ -1,5 +1,25 @@
 groups:
-  owners:
+  defaults:
     members:
-      - BrianCArnold
+      - team:DefaultGroup
     required: 1
+    paths:
+      - '**'
+  Project-A:
+    members:
+      - team:GroupA
+    required: 1
+    paths:
+      - 'ProjectA/**'
+  Project-B:
+    members:
+      - team:GroupB
+    required: 2
+    paths:
+      - 'ProjectB/**'
+  Project-C:
+    members:
+      - FakeUser
+    required: 1
+    paths:
+      - 'ProjectC/**'
